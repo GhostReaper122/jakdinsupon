@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>คลังความรู้</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+        body {
+            font-family: 'TH Sarabun New', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: url('header-background.jpg') no-repeat center center/cover;
+            height: 500px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            color: rgb(255, 255, 255);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            padding-left: 40px;
+        }
+        .header h1 {
+            font-size: 4rem;
+            font-weight: bold;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-image: url('images/um.png');
+            background-color: #ffffff;
+            background-position: 1;
+            padding: 60px 0;
+            box-shadow: 0 2px 4px rgba(1, 0, 0, 0.1);
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 25px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+        .navbar a:hover {
+            background-color: #45a049;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+            background: linear-gradient(to bottom, #ffffff, #e8f5e9);
+        }
+        .content img {
+            width: 100%;
+            max-width: 2000px;
+            height: 500px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .content h2 {
+            margin-top: 20px;
+            color: #2e7d32;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .content p {
+            margin: 15px 0;
+            font-size: 1.3rem;
+            color: #555;
+        }
+        .info-section {
+            display: flex;
+            flex-wrap: wrap;
+            background-image: url('images/SPAA.png');
+            background-position: center;
+            justify-content: space-around;
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+        .info-box {
+            width: 250px;
+            margin: 15px;
+            text-align: center;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+        }
+        .info-box img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .info-box h3 {
+            font-size: 1.8rem;
+            color: #1b5e20;
+            margin-top: 10px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>คลังความรู้</h1>
+    </div>
+
+    <div class="navbar">
+        <a href="#"><img src="images/สมาชิก.png" width="300" alt=""></i></a>
+        <a href="index.html"><img src="images/หน้าหลัก.png" width="300" alt=""></i></a>
+        <a href="#"><img src="images/คลังความรู้.png" width="300" alt=""></i></a>
+        <a href="#"><img src="images/คำถามพี่พบบ่อย.png" width="300" alt=""></i></a>
+        <a href="#"><img src="images/เกี่ยวกับเรา.png" width="300" alt=""></i></a>
+
+</body>
+</html>

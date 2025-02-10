@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สมัครสมาชิก</title>
+    <link rel="stylesheet2" href="styles2login.css">
+</head>
+<body>
+    <div class="signup-container">
+        <h2>สมัครสมาชิก</h2>
+        <form action="register.php" method="POST">
+            <label for="username">ชื่อผู้ใช้</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">อีเมล</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">รหัสผ่าน</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">ยืนยันรหัสผ่าน</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <button type="submit">สมัครสมาชิก</button>
+        </form>
+        <p>มีบัญชีแล้ว? <a href="login.html">เข้าสู่ระบบ</a></p>
+    </div>
+    <div class="navbar">
+        <a href="index.html"><img src="images/หน้าหลัก.png" width="300" alt=""></i></a>
+        <a href="KnowledgeBase.html"><img src="images/คลังความรู้.png" width="300" alt=""></i></a>
+        <a href="#"><img src="images/คำถามพี่พบบ่อย.png" width="300" alt=""></i></a>
+        <a href="#"><img src="images/เกี่ยวกับเรา.png" width="300" alt=""></i></a>
+    </div>
+</body>
+</html>

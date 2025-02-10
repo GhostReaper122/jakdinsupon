@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="images/head.jpg" type="image icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>จากดินสู่ผล</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Style for default (Desktop and Laptop) */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* ครอบคลุมความสูงทั้งหน้า */
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+        }
+
+        /* For Tablets (iPad) */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+        }
+
+        /* For Mobile Phones (Smartphones) */
+        @media (max-width: 480px) {
+            .container {
+                width: 95%;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
+        }
+        body {
+            font-family: 'TH Sarabun New', Arial, sans-serif;
+        }
+        .header {
+            background: url('header-background.jpg') no-repeat center center/cover;
+            height: 500px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            color: rgb(255, 255, 255);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            padding-left: 40px;
+        }
+        .header h1 {
+            font-size: 4rem;
+            font-weight: bold;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-image: url('images/A1AE63DE-661F-449A-B0FA-CC4C202B2571.jpg');
+            background-color: #ffffff;
+            background-position: 1;
+            padding: 49px 0;
+            box-shadow: 0 2px 4px rgba(1, 0, 0, 0.1);
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 25px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+        .navbar a:hover {
+            background-color: #45a049;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+            background: linear-gradient(to bottom, #ffffff, #e8f5e9);
+        }
+        .content img {
+            width: 100%;
+            max-width: 1897px;
+            height: 650px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .info-section {
+            display: flex;
+            flex-wrap: wrap;
+            background-image: url('images/SPAA.png');
+            background-position: center;
+            justify-content: space-around;
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+        .info-box {
+            width: 250px;
+            margin: 15px;
+            text-align: center;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+        }
+        .info-box img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .info-box h3 {
+            font-size: 1.8rem;
+            color: #1b5e20;
+            margin-top: 10px;
+        }
+
+        /* Footer Section */
+        .footer {
+            background-color: #333; /* สีดำ */
+            color: white; /* ตัวอักษรสีขาว */
+            text-align: center;
+            padding: 20px 0; /* เพิ่ม padding ด้านบนและล่าง */
+            margin-top: auto; /* ให้ footer อยู่ล่างสุด */
+            font-size: 16px; /* ขนาดตัวอักษร */
+            line-height: 1.5; /* ความสูงบรรทัด */
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+        }
+
+        .footer a {
+            color: #4CAF50; /* สีเขียว */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline; /* เส้นขีดใต้เมื่อ hover */
+        }
+
+        @media (max-width: 768px) {
+            .info-section {
+                flex-direction: column;
+                align-items: center;
+            }
+            .info-box {
+                width: 90%;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header-background">
+        <img src="images/head.jpg" width="1897" height="650" alt="">
+    </div>
+
+    <div class="navbar">
+        <a href="index.html"><img src="images/หน้าหลัก.png" width="300" alt=""></a>
+        <a href="KnowledgeBase.html"><img src="images/คลังความรู้.png" width="300" alt=""></a>
+        <a href="Frequentlyaskedquestions.HTML"><img src="images/คำถามพี่พบบ่อย.png" width="300" alt=""></a>
+        <a href="Aboutus.HTML"><img src="images/เกี่ยวกับเรา.png" width="300" alt=""></a>
+    </div>
+
+    <div class="content">
+        <img src="images/ดิน.jpg" width="1897" height="650" alt="ปลูกต้นไม้">
+    </div>
+
+    <div class="info-section">
+        <div class="info-box">
+            <a href="https://www.youtube.com/watch?v=Dk78lSwM5oY" target="_blank">
+                <img src="images/ความรู้พื้นฐานเกี่ยว.jpg" alt="ดิน">
+                <h3>วิดีโอความรู้พื้นฐานเกี่ยวกับสารเคมี</h3>
+            </a>
+        </div>    
+        <div class="info-box">
+            <a href="https://www.youtube.com/watch?v=wuKcVb3hEZk" target="_blank">
+                <img src="images/ผลกระทบของสาร.jpg" alt="ความปลอดภัย">
+                <h3>วิดีโอผลกระทบของสารเคมีต่อดิน</h3>
+            </a>
+        </div>
+        <div class="info-box">
+            <a href="https://www.youtube.com/watch?v=Dk78lSwM5oY" target="_blank">
+                <img src="images/การใช้สารเคมี.jpg" alt="พืช">
+                <h3>วิดีโอการใช้สารเคมีอย่างปลอดภัย</h3>
+            </a>
+        </div>
+        <div class="info-box">
+            <a href="https://www.youtube.com/watch?v=1TxzuyJO35k" target="_blank">
+                <img src="images/ตัวอย่าง.jpg" alt="พืช">
+                <h3>วิดีโอตัวอย่างกรณีศึกษาเกี่ยวกับพืช</h3>
+            </a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>ติดต่อเรา: <img src="images/gmail_icon-icons.com_62758.png" height="20"><a href="mailto:JakDinSupon@gmail.com">JakDinSupon@gmail.com</a> | <img src="images/line-icon.png" height="20"><a href="https://lin.ee/XzQ5wvG"> Line</a>  | โทร: 099-909-9970</p>
+        <p>ติดตามเราได้ที่: <img src="images/Facebook-Logosu.png" height="15"><a href="https://www.facebook.com/groups/1750679922438704"> จากดินสู่พืช</a></p>
+        <p>Copyright © 2025 จากดินสู่ผล all rights reserved</p>
+    </div>
+</body>
+</html>
